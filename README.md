@@ -1,3 +1,4 @@
 Padaria do SENAC
 
-27/06/24
+criado: 27/06/24
+Última alteração: 01/07
