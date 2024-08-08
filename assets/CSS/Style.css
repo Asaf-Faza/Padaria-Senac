@@ -27,6 +27,22 @@
     top: 170rem;
     width: 90vw;
 }
+.footerAbout{
+    position: absolute;
+    top: 160rem;
+    width: 90vw;
+}
+.titleAbout{
+    width: 50%;
+    font-size: 2.5rem;
+}
+.textoAbout{
+    width: 50%;
+}
+.imgAbout{
+    width: 25rem;
+
+}
 @media only screen and (max-width: 990px) {
     .borTop{
         border-top: 1px solid #dee2e6 !important;
@@ -36,5 +52,14 @@
     }
     .footer{
         top: 230rem;
+    }
+    .textoAbout{
+        width: 90%;
+    }
+    .imgAbout{
+        width: 10rem;
+    }
+    .titleAbout{
+        width: 90%;
     }
 }
