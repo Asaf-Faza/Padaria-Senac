@@ -24,13 +24,19 @@
 }
 .footer{
     position: absolute;
-    top: 170rem;
+    top: 130rem; 
     width: 90vw;
 }
+/* 170 rem */
 .footerAbout{
     position: absolute;
     top: 160rem;
     width: 90vw;
+}
+.footerList{
+    position: absolute;
+    top: 100rem;
+    width: 90rem;
 }
 .titleAbout{
     width: 50%;
@@ -40,11 +46,7 @@
     width: 50%;
 }
 .imgAbout{
-    width: 25rem;
-}
-.imgList{
-    height: 20rem;
-    width: 20rem;
+    width: 75%;
 }
 @media only screen and (max-width: 990px) {
     .borTop{
@@ -55,6 +57,9 @@
     }
     .footer{
         top: 230rem;
+    }
+    .footerList{
+        top: 155rem;
     }
     .textoAbout{
         width: 90%;
